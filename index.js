@@ -38,7 +38,7 @@ app.get('/confirm', (req, res) => {
 
     res.render('confirm', {name, email, phone, attend});
 })
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`server listening on ${port}`);
